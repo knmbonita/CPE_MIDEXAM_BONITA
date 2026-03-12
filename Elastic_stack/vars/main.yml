@@ -1,0 +1,22 @@
+---
+# vars file for Elastic_stack
+elastic_version: "8.x"
+
+packages:
+  ubuntu:
+    elasticsearch: elasticsearch
+    kibana: kibana
+    logstash: logstash
+    apache: apache2
+    php: php
+    mariadb: mariadb-server
+    nagios: nagios4
+
+  centos:
+    elasticsearch: elasticsearch
+    kibana: kibana
+    logstash: logstash
+    apache: httpd
+    php: php
+    mariadb: mariadb-server
+    nagios: nagios
